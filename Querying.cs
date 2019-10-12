@@ -58,7 +58,6 @@ namespace Querying
                 for (int i = 0; i < fieldInfo.Count-1; i++)
                 {
                     var count = countEnumerator.Current[fields[i]];
-                   // Console.WriteLine("field value: " + count);
                     fieldValues.Add(count);
                 }
             }

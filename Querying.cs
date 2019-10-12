@@ -55,7 +55,7 @@ namespace Querying
                 countEnumerator.MoveNext();
                 var shape = countEnumerator.Current["Shape"];
 
-                for (int i = 0; i < fieldInfo.Count-1; i++)//Unknown field! Shape_Length - apparently its created automatically?
+                for (int i = 0; i < fieldInfo.Count-1; i++)
                 {
                     var count = countEnumerator.Current[fields[i]];
                    // Console.WriteLine("field value: " + count);
